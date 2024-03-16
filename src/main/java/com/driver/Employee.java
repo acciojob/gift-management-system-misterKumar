@@ -5,14 +5,17 @@ import java.util.List;
 
 public class Employee {
 	  private String name;
-	    private List<Gift> gifts;
+	    private List<Gift> gifts=new ArrayList<>();
+
 
 	    public Employee(String name) {
 	       // your code goes here
+			this.name=name;
 	    }
 
 	    public void receiveGift(Gift gift) {
 	    	// your code goes here
+			gifts.add(gift);
 	    }
 
 	    public String getName() {

@@ -5,6 +5,7 @@ public class Gift {
 
     public Gift(String type) {
         // your code goes here
+        this.type=type;
     }
 
     public String getType() {
